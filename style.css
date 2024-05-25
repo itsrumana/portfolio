@@ -4,7 +4,7 @@
 }
 body{
     color: #630B0B;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 header{
     width: auto;
@@ -62,4 +62,34 @@ ul{
     z-index: 2;
     top: 98px;
     left: 185px;
+}
+.spark2{
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 155px;
+}
+.home_content{
+    width: 550px;
+    position: relative;
+    left: 520px;
+    top: 130px;
+}
+.name{
+    text-align: justify;
+}
+button{
+    background-color:#E0A96D;
+    border: 2px solid #630B0B;
+    position: relative;
+    left: 210px;
+    color: #630B0B;
+    height: 25px;
+    width: 150px;
+    border-radius: 30px;
+}
+#about{
+    width: auto;
+    height: 80vh;
+    background-image:url("about_img.png");
 }
