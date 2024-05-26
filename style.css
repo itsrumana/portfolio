@@ -10,7 +10,7 @@ body{
     color: #630B0B;
 }
 header{
-    width: auto;
+    width: 1366px;
     height: 15vh;
     background-color: #E0A96D;
     display: flex;
@@ -97,7 +97,7 @@ button{
     border-radius: 30px;
 }
 #about{
-    width: auto;
+    width: 1366px;
     height: 80vh;
     background-image:url("about_img.png");
     background-repeat: no-repeat;
@@ -116,4 +116,47 @@ button{
     text-align: justify;
     position: relative;
     left: 40px;
+}
+#projects{
+    width: 1366px;
+    height: 150vh;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.project{
+    height: 300px;
+    width: 950px;
+    position: relative;
+    left: 80px;
+    display:flex;
+}
+.box{
+    position: relative;
+    left: 600px;
+} 
+.project1_content{
+    position: relative;
+    right: 250px;
+}
+.project_para{
+    text-align: justify;
+    width: 500px;
+    height: auto;
+}
+.box1{
+    position: relative;
+    left: 55px;
+} 
+.project2_content{
+    position: relative;
+    left: 100px;
+}
+footer{
+    height: 250px;
+    width: 1366px;
+    background-color: #e0a96d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
