@@ -2,9 +2,12 @@
     padding: 0;
     margin: 0;
 }
+
+body::-webkit-scrollbar { 
+    display: none;  /* For Chrome, Safari, and Opera */
+}
 body{
     color: #630B0B;
-    /* overflow: hidden; */
 }
 header{
     width: auto;
@@ -15,6 +18,9 @@ header{
     align-items: center;
     font-weight: 1000;
     font-size:x-large;
+    position: sticky;
+    z-index: 3;
+    top: 0;
 }
 ul{
     display: flex;
@@ -23,8 +29,10 @@ ul{
 }
 #home{
     width: auto;
-    height: 80vh;
+    height: 78vh;
     background-color: #DDC3A5;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 .container{
     position: relative;
@@ -92,4 +100,20 @@ button{
     width: auto;
     height: 80vh;
     background-image:url("about_img.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 84vh;
+    background-size: cover;
+}
+.about{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.para{
+    width: 1000px;
+    height: 80px;
+    text-align: justify;
+    position: relative;
+    left: 40px;
 }
