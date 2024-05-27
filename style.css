@@ -2,22 +2,43 @@
     padding: 0;
     margin: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+}
+.home_section{
+    padding-top: 21px;
+}
+.about_section{
+    padding-top: 32px;
+}
+.projects_section{
+    padding-top: 100px;
+}
 body::-webkit-scrollbar { 
     display: none;  /* For Chrome, Safari, and Opera */
 }
 body{
     color: #630B0B;
     font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 100 ;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+
+}
+.header_link{
+    text-decoration: none;
+    color: inherit;
+    top: -30;
+}
+.header_link:hover{
+    border: 1px solid #630B0B;
 }
 header{
     width: 1366px;
     height: 15vh;
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: medium;
     background-color: #E0A96D;
     display: flex;
     justify-content: center;
@@ -39,8 +60,8 @@ ul{
     column-gap: 80px;
 }
 #home{
-    width: auto;
-    height: 78vh;
+    width: 1366px;
+    height: 75vh;
     background-color: #DDC3A5;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -122,16 +143,18 @@ button{
     align-items: center;
     cursor:pointer;
 }
+button:hover{
+    stroke-width:3;
+    font-weight: bold;
+}
 .no_underline{
     text-decoration: none;
 }
 #about{
     width: 1366px;
-    height: 80vh;
+    height: 90vh;
     background-image:url("about_img.png");
     background-repeat: no-repeat;
-    width: auto;
-    height: 84vh;
     background-size: cover;
 }
 .about{
@@ -140,7 +163,7 @@ button{
     left: 40px;
 }
 .para{
-    width: 1000px;
+    width: 1100px;
     height: 80px;
     text-align: justify;
     position: relative;
@@ -181,11 +204,25 @@ button{
     position: relative;
     left: 100px;
 }
-footer{
+.contact{
     height: 250px;
     width: 1366px;
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: small;
     background-color: #e0a96d;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.foot_svg1:hover{
+    border: 1px solid #630B0B;
+}
+.foot_svg2:hover{
+    border: 1px solid #630B0B;
+}
+.foot_svg3:hover{
+    border: 1px solid #630B0B;
 }
