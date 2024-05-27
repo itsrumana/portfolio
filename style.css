@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+/* body{
+    overflow-x: hidden;
+} */
 html {
     scroll-behavior: smooth;
 }
@@ -27,14 +30,13 @@ body{
 .header_link{
     text-decoration: none;
     color: inherit;
-    top: -30;
 }
 .header_link:hover{
     border: 1px solid #630B0B;
 }
 header{
     width: 1366px;
-    height: 15vh;
+    height: 75px;
     font-family: "Cedarville Cursive", cursive;
   font-weight: 600;
   font-style: normal;
@@ -61,7 +63,7 @@ ul{
 }
 #home{
     width: 1366px;
-    height: 75vh;
+    height: 460px;
     background-color: #DDC3A5;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -152,7 +154,7 @@ button:hover{
 }
 #about{
     width: 1366px;
-    height: 90vh;
+    height: 500px;
     background-image:url("about_img.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,11 +172,10 @@ button:hover{
     left: 40px;
 }
 #projects{
-    width: 1366px;
-    height: 150vh;
+    width: 1323px;
+    height: 900px;
     position: relative;
-    top: 60px;
-    left: 40px;
+    left: 42px;
 }
 .project{
     height: 300px;
@@ -205,7 +206,7 @@ button:hover{
     left: 100px;
 }
 .contact{
-    height: 250px;
+    height: 220px;
     width: 1366px;
     font-family: "Cedarville Cursive", cursive;
   font-weight: 600;
