@@ -8,6 +8,12 @@ body::-webkit-scrollbar {
 }
 body{
     color: #630B0B;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 header{
     width: 1366px;
@@ -22,9 +28,14 @@ header{
     z-index: 3;
     top: 0;
 }
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ul{
     display: flex;
-    list-style: none;
+    justify-content: center;
     column-gap: 80px;
 }
 #home{
@@ -46,6 +57,16 @@ ul{
     top: 80px;
     left: 180px;
     background-color: #E0A96D;
+}
+.rumana{
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: xxx-large;
+}
+.hello{
+    font-size: xx-large;
+    font-weight: 600;
 }
 .c1 {
     position: absolute;
@@ -78,11 +99,12 @@ ul{
     left: 155px;
 }
 .home_content{
-    width: 550px;
+    width: 750px;
     position: relative;
     left: 520px;
-    top: 130px;
+    top: 110px;
 }
+
 .name{
     text-align: justify;
 }
@@ -92,9 +114,16 @@ button{
     position: relative;
     left: 210px;
     color: #630B0B;
-    height: 25px;
+    height: 30px;
     width: 150px;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.no_underline{
+    text-decoration: none;
 }
 #about{
     width: 1366px;
