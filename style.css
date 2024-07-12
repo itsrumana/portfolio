@@ -326,11 +326,11 @@ nav .nav-links button:hover{
     justify-content: center;
     align-items: center;
     height: 400px;
-    border:15px solid var(--dark);
+    border:0.8vw solid var(--dark);
     border-top-right-radius: 25%;
     border-bottom-right-radius: 25%;
     position: relative;
-    box-shadow: -0px 0 10px var(--dark);
+    box-shadow: -0px 0 25px var(--dark);
 }
 .project .container .box1 .project1{
     position:absolute;
@@ -338,8 +338,8 @@ nav .nav-links button:hover{
     left: 1.5%;
 }
 .project .container .box1 .project1 img{
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
     position:absolute;
     width: 18em;
     height: 10em;
@@ -369,11 +369,11 @@ nav .nav-links button:hover{
     justify-content: center;
     align-items: center;
     height: 400px;
-    border:15px solid var(--dark);
+    border:0.8vw solid var(--dark);
     border-top-right-radius: 25%;
     border-bottom-right-radius: 25%;
     position: relative;
-    box-shadow: -0px 0 10px var(--dark);
+    box-shadow: -0px 0 25px var(--dark);
 }
 .project .container .box2 .project2{
     position:absolute;
@@ -381,8 +381,8 @@ nav .nav-links button:hover{
     left: 1.5%;
 }
 .project .container .box2 .project2 img{
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
     position:absolute;
     width: 18em;
     height: 10em;
@@ -412,11 +412,11 @@ nav .nav-links button:hover{
     justify-content: center;
     align-items: center;
     height: 400px;
-    border:15px solid var(--dark);
+    border:0.8vw solid var(--dark);
     border-top-right-radius: 25%;
     border-bottom-right-radius: 25%;
     position: relative;
-    box-shadow: -0px 0 10px var(--dark);
+    box-shadow: -0px 0 25px var(--dark);
 }
 .project .container .box3 .project3{
     position:absolute;
@@ -424,8 +424,8 @@ nav .nav-links button:hover{
     left: 1.5%;
 }
 .project .container .box3 .project3 img{
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
     position:absolute;
     width: 18em;
     height: 10em;
