@@ -63,7 +63,7 @@ nav .nav-links li{
 nav .nav-links button:hover{
     background-color: var(--secondary);
     color: var(--primary);
-    box-shadow: -0px 0 10px var(--dark);
+    box-shadow: -0px 0 2px var(--dark);
 }
 .menu{
     display: none;
@@ -132,7 +132,6 @@ nav .nav-links button:hover{
     justify-content: center;
     align-items: center;
     font-size: large;
-    border-radius: 30px;
     border: none;
 }
 .menu{
@@ -226,6 +225,7 @@ nav .nav-links button:hover{
     color: var(--light);
     background-color: var(--secondary);
     line-height: -10;
+    font-size: xx-large;
 }
 .intro{
     font-family: var(--para-font);
@@ -267,8 +267,6 @@ nav .nav-links button:hover{
 }
 
 /* ****************************************************** */
-
-
 #about{
     background-image:url("abouty.avif");
     background-repeat: no-repeat;
@@ -276,11 +274,19 @@ nav .nav-links button:hover{
     background-attachment: fixed;
     background-size:cover;
 }
+#about-title{
+    font-family: var(--sub-font);
+    color: var(--dark);
+    text-align: center;
+    margin-top: 1.5%;
+    text-decoration:underline;
+}
 
 .past{
-    margin-top: 3%;
-    margin-left: 4%;
-    margin-right: 4%;
+    border: 2px dashed var(--primary);
+    box-shadow: -0px 0px 30px var(--primary);
+    margin-left: 4.5%;
+    margin-right: 4.5%;
     padding: 2%;
     text-align: justify;
     color: var(--dark);
@@ -303,11 +309,17 @@ nav .nav-links button:hover{
 /* ********************************************************* */
 
 .project .container{
-    margin-top: 3.1%;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,350px));
+    grid-template-columns: repeat(auto-fit,minmax(345px,350px));
     column-gap: 60px;
     row-gap: 60px;
+}
+.project h1{
+    font-family: var(--sub-font);
+    color: var(--dark);
+    text-align: center;
+    margin-top: 1.5%;
+    text-decoration:underline;
 }
 .project .container .box1{
     display: flex;
@@ -445,6 +457,7 @@ nav .nav-links button:hover{
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
+    background-position: right center;
 }
 .contact-box{
     display: flex;
@@ -452,21 +465,31 @@ nav .nav-links button:hover{
     align-items: center;
     position: relative;
 }
-
+#contact-title{
+    font-family: var(--sub-font);
+    color: var(--dark);
+    text-align: center;
+    margin-top: 1.5%;
+    text-decoration:underline;
+}
 .boxy{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 250px;
+    width: 40vw;
+    height: 50vh;
     border: 8px solid var(--light);
     position: relative;
-    top: 90px;
-    box-shadow: -0px 0 20px var(--primary);
+    box-shadow: -0px 0 150px var(--primary);
 }
 .boxy svg:hover{
-    color: var(--primary);
-    box-shadow: -0px 0 10px var(--primary);
+    color: var(--light);
+}
+
+@media only screen and (max-width:840px){
+    .boxy {
+        flex-direction: column;
+    }
 }
 
 
